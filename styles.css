@@ -12,15 +12,7 @@ body{
     background-size: cover;
 
 }
-/* h1{
-    text-transform: uppercase;
-    color: #FDC005;
-    font-size: 60px;
-    display: flex;
-    justify-content: center;
-} */
 form{
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-content: center;
@@ -32,7 +24,6 @@ form{
     border-radius: 5px;
 }
 section{
-    /* border: 1px solid violet; */
     width: 800px;
     height: 500px;
 }
@@ -42,7 +33,6 @@ div{
 }
 
 .box-uno{
-    /* border: 1px solid orange; */
     display: flex;
     justify-content: space-between;
 }
@@ -52,7 +42,6 @@ div{
 .uno, .dos, .tres, .cuatro, .cinco,.seis{
     display: flex;
     flex-direction: column;
-    /* border: 1px solid palevioletred; */
 }
 input, select{
     height: 45px;
@@ -70,22 +59,18 @@ select{
     border-radius: 5px;
 }
 .box-dos{
-    /* border: 1px solid yellowgreen; */
     display: flex;
     flex-direction: column;
 }
 .box-tres{
-    /* border: 1px solid blue; */
     display: flex;
     flex-direction: column;
 }
 .box-cuatro{
-    /* border: 1px solid firebrick; */
     display: flex;
     flex-direction: column;
 }
 .box-cinco{
-    /* border: 1px solid gold; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
