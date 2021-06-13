@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./taxi.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+/* h1{
+    text-transform: uppercase;
+    color: #FDC005;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+} */
+form{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 850px;
+    height: 600px;
+    background-color: #111213;
+    border: none;
+    border-radius: 5px;
+}
+section{
+    /* border: 1px solid violet; */
+    width: 800px;
+    height: 500px;
+}
+div{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.box-uno{
+    /* border: 1px solid orange; */
+    display: flex;
+    justify-content: space-between;
+}
+.uno, .dos{
+    width: 380px;
+}
+.uno, .dos, .tres, .cuatro, .cinco,.seis{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid palevioletred; */
+}
+input, select{
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.tres{
+    width: 250px;
+}
+select{
+    width: 90px;
+    border: none;
+    border-radius: 5px;
+}
+.box-dos{
+    /* border: 1px solid yellowgreen; */
+    display: flex;
+    flex-direction: column;
+}
+.box-tres{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+.box-cuatro{
+    /* border: 1px solid firebrick; */
+    display: flex;
+    flex-direction: column;
+}
+.box-cinco{
+    /* border: 1px solid gold; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+}
+.box-seis{
+    display: flex;
+    justify-content: center;
+}
+.boton{
+    width: 800px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #111213;
+    text-transform: uppercase;
+    background-color: #FDC005;
+    border: none;
+    border-radius: 5px;
+}
+.date{
+    font-size: 18px;
+    color: #CCD1D1;
+}
+.texto{
+    font-size: 16px;
+    color: #CCD1D1;
+}
+.turno, .hora, .minuto{
+    font-size: 20px;
+    text-transform: uppercase;
+}
